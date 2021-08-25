@@ -1,0 +1,11 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+  devtools:
+    add-properties: false
+
+server:
+  port: 8080
+  tomcat:
+    max-connections: 8192
