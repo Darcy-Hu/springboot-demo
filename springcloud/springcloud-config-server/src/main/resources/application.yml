@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Darcy-Hu/spring-cloud-config.git
+          username: 17786382043@163.com
+          password: Paic1999?
