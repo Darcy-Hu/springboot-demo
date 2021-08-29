@@ -9,5 +9,5 @@ spring:
       server:
         git:
           uri: https://github.com/Darcy-Hu/spring-cloud-config.git
-          username: 17786382043@163.com
+          username: Darcy-Hu
           password: '{cipher}AQAnfj0cTfjQFjlHwX5WsQtSaaI+juYm8ZzU99sDLAZL8Qylq90yNXDqVGrEc5oEniaFDAq9mmSaSh+yY8wMVcGV7rtLx/h+3sYv0AvBDh3EZK824b4tgLuS5a/T5hOWTWGrccQzYqBcDhnPoitCU3QUY6ZoTjM7GNunXxvE2pL0t4cbsusVkbpRU4Y7MYEG6Ugi29XSILXvepc4joBLZogzBfPVKngBa1LyKRpSnkqy57LVTo0Da6LRAoUI1ioUv+uycEjvipsazpzOlaE7PVH8bNIdbQzacTNKW7tCznsTA9/WbbyoflC9sWmXG5nA6uJ+/lQzMJxoc80pOdY2AOXRWXw/t0yq2w851BXRVlpfS/8w6M+iPPcg9FOyub9+GLw='
