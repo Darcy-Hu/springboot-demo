@@ -1,7 +1,7 @@
 encrypt:
-  key: foo
-#  keyStore:
-#    location: classpath:/server.jks
-#    password: letmein
-#    alias: mytestkey
-#    secret: changeme
+#  key: qytL2LIStcahv2MfTPKHikuAP1BocyKA
+  keyStore:
+    location: classpath:/server.jks
+    password: letmein
+    alias: mytestkey
+    secret: changeme

@@ -19,7 +19,7 @@ import java.util.concurrent.*;
 @RequestMapping("/api/demo")
 public class DemoController {
 
-    private List<String> list = new ArrayList<>();
+    private List<String> list = new ArrayList<String>();
 
     private static ExecutorService executorService = Executors.newFixedThreadPool(1);
 
