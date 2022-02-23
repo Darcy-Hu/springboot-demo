@@ -5,10 +5,16 @@ spring:
   devtools:
     add-properties: false
 
+  session:
+    store-type: jdbc
+    jdbc:
+      initialize-schema: EMBEDDED
+      schema: classpath:org/springframework/session/jdbc/schema-xxxxx.sql
+
 server:
   port: 8080
   tomcat:
     max-connections: 8192
 
-username: 17786382043@163.com
-password: '{cipher}851abeffab6619f43157a714861f4682be8131b73b56b0451a7e268c88daea3'
+username: xxxxx
+password: '{cipher}ass4861f4682be8131b73b56b0451a7e268c88daea3'

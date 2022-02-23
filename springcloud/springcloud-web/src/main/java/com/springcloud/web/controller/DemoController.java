@@ -1,11 +1,13 @@
 package com.springcloud.web.controller;
 
+import com.springcloud.web.config.dataSource.DynamicDataSourceContextHolder;
 import com.springcloud.web.thread.CallableTest;
 import com.springcloud.web.thread.DownLatch1;
 import com.springcloud.web.thread.DownLatch2;
 import com.springcloud.web.util.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

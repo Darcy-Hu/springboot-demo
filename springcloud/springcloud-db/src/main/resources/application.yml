@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=TestBase;autoReconnectForPools=true;encrypt=true;trustServerCertificate=true;
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: 123456
+    test-on-borrow: true
+    validation-query: SELECT 1
+
+db:
+  dev:
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=TestBase;autoReconnectForPools=true;encrypt=true;trustServerCertificate=true;
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: 123456
+    test-on-borrow: true
+    validation-query: SELECT 1
+
+server:
+  port: 8080
+  servlet:
+    context-path: /mydb
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations:
+    - classpath:mapper/*Mapper.xml
+
+
+
